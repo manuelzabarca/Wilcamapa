@@ -1,0 +1,23 @@
+El programa Wilcamapa es de libre acceso y libre distribucion. 
+Ha sido diseñado para proveer las funcines basicas de mapeo en dos dimensiones y con 
+una tercera dimension que es funcion de las coordenadas horizontales. El formato del archivo
+de entrada es ascii llano, con una primera linea que especifica el tipo de  datos:
+x y z; para datos en coordenadas cartesianas.
+lon  lat  dat; para datos en coordenadas geograficas, proyeccin Mercator (no confundir con UTM).
+
+Las funciones se preentan de manera intuitiva, pero en forma resumida se preve la secuencia,
+Abre --> Contornos --> Imprenta; ó
+Abre --> Geoinformacion --> Crea postscript.
+
+Tiene dos ventanas de texto en el lado derecho. La ventana superior-derecha es editable, en la 
+que se pueden ingresar los textos de los titulos y la informacion de los ejes, asi como una  leyenda.
+La ventana derecha-media es informativa, aqui el programa muestra los datos y algunas tareas
+que ejecuta. En la parte derecha-abajo hay controles para algunos parametros como el numero 
+de curva de nivel, el tamaño del papel de impresion y la escala del mapa.
+
+El programa es upgradable; o sea que podemos implementar otra funciones a pedido del cliente. 
+Algunas caracteristicas que se podrian agregar son: tamaño de las letras, tablas de colores para
+los mapas, otros tamaños del papel de impresión, otros formatos de salida graficos, etc.
+
+Comuniquese con el autor para mayores informaciones (vea help del programa).
+
